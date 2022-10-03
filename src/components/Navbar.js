@@ -14,6 +14,7 @@ function Navbar() {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
+      
       setButton(true);
     }
   }; 
