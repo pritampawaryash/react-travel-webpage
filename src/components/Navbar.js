@@ -14,7 +14,7 @@ function Navbar() {
     if (window.innerWidth <= 960) {
       setButton(false);
     } else {
-      
+
       setButton(true);
     }
   }; 
@@ -50,6 +50,7 @@ function Navbar() {
               >
                 Services
               </Link>
+              
             </li>
             <li className='nav-item'>
               <Link
@@ -57,6 +58,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
+
                 Products
               </Link>
             </li>

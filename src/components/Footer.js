@@ -10,12 +10,13 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
+        
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
           <form>
-            
+
             <input
               className='footer-input'
               name='email'
